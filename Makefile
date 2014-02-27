@@ -9,7 +9,7 @@ CFLAGS = -m32 -march=i386 -static -MD -std=gnu89 -ggdb \
 		 -Wall -Werror -O2 -I./include
 ASFLAGS = -m32 -MD
 LDFLAGS = -melf_i386
-GITFLAGS = -q --author='tracer <tracer@njuoslab.org>' --no-verify --allow-empty &> /dev/null
+GITFLAGS = -q --author='tracer <tracer@njuoslab.org>' --no-verify --allow-empty
 QEMU = qemu-system-i386
 
 # 编译目标：src目录下的所有.c和.S文件
